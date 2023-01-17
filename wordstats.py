@@ -7,9 +7,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendi
 def is_vowel(letter):
     assert(len(letter) == 1)
     return letter.lower() in ['a', 'e', 'i', 'o', 'u', 'y']
-
+def wordCount(mots):
+    count=0
+    for i in mots:
+        count+=1
+    return count
 if __name__ == "__main__":
 
     words = full_text.split()
+    
 
 
